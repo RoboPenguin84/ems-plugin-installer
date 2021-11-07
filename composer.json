@@ -5,6 +5,9 @@
     "autoload": {
         "psr-4": {"Ems\\Composer": "src/"}
     },
+    "extra": {
+        "class": "Ems\\Composer\\PluginInstaller"
+    },
     "require": {
         "composer-plugin-api": "^2.0"
     },
