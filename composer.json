@@ -3,7 +3,9 @@
     "type": "composer-plugin",
     "license": "MIT",
     "autoload": {
-        "psr-0": {"Ems\\Composer": "src/"}
+        "psr-4": {
+            "Ems\\Composer\\": "src/"
+        }
     },
     "extra": {
         "class": "Ems\\Composer\\PluginInstaller"
