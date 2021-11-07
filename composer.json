@@ -1,0 +1,17 @@
+{
+    "name": "armis/ems-plugin-installer",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {"Ems\\Composer": "src/"}
+    },
+    "extra": {
+        "class": "Ems\\Composer\\PluginInstaller"
+    },
+    "require": {
+        "composer-plugin-api": "^2.0"
+    },
+    "require-dev": {
+        "composer/composer": "^2.0"
+    }
+}
